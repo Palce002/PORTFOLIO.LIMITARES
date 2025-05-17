@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeAnn Limitares | Network Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --light-bg: #f8f9fa;
+      --accent: #007bff;
+      --text-dark: #212529;
+      --text-muted: #6c757d;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--light-bg);
+      color: var(--text-dark);
+    }
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .nav-link {
+      color: var(--text-dark) !important;
+      margin-right: 1rem;
+    }
+    .nav-link:hover {
+      color: var(--accent) !important;
+    }
+    .logo {
+      font-weight: 700;
+      letter-spacing: .5px;
+    }
+    .hero {
+      min-height: 85vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .social-icons a {
+      width: 45px;
+      height: 45px;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: .5rem;
+      color: var(--accent);
+      transition: all .3s ease;
+    }
+    .social-icons a:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-outline-accent {
+      border: 2px solid var(--accent);
+      color: var(--accent);
+      padding: .75rem 2rem;
+      border-radius: 30px;
+      font-weight: 500;
+      transition: all .3s ease;
+    }
+    .btn-outline-accent:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+    h1, h2, h5 {
+      color: var(--text-dark);
+    }
+    p {
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand logo" href="#">GeAnn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero mt-5 pt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="mb-4 social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100089241593652"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/potatopalce"><i class="fab fa-instagram"></i></a>
+          </div>
+          <h1 class="display-4 fw-bold mb-3">I am <span>GeAnn Limitares</span></h1>
+          <p class="lead mb-4">An aspiring Network Engineer with a passion for technology and connectivity.</p>
+          <a href="#" class="btn btn-outline-accent">My personal website</a>
+        </div>
+        <div class="col-lg-6 text-center mt-5 mt-lg-0">
+          <img src="img1.jpg" alt="GeAnn" class="img-fluid rounded-3 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4 text-center">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+          <img src="image2.jpg" alt="GeAnn Palce" class="img-fluid rounded shadow"
+          <p class="fst-italic mt-2 text-muted">"My dream inspires me to do better."</p>
+        </div>
+        <div class="col-md-7">
+          <p>I am GeAnn P. Limitares, currently studying at Global Reciprocal Colleges. I dream of becoming a successful Network Engineer and using my skills to create a better future for myself and my family.</p>
+          <p>I aim to explore the world of IT and grow in this exciting field. Whether through coding, configuring networks, or solving digital problems, I’m motivated to keep learning and improving.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">My Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-network-wired fa-3x mb-3 text-primary"></i>
+          <h5 class="fw-bold">Basic Networking</h5>
+          <p class="text-muted">Knowledge of IP addressing, subnetting, and network configuration for routers and switches.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-code fa-3x mb-3 text-success"></i>
+          <h5 class="fw-bold">HTML & CSS</h5>
+          <p class="text-muted">Able to build clean, responsive layouts using structured HTML and styled CSS.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-terminal fa-3x mb-3 text-dark"></i>
+          <h5 class="fw-bold">Command Line & Troubleshooting</h5>
+          <p class="text-muted">Familiar with basic command line tools used in diagnosing and fixing network issues.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-shield-alt fa-3x mb-3 text-warning"></i>
+          <h5 class="fw-bold">Cybersecurity Basics</h5>
+          <p class="text-muted">Understanding of safe internet practices, firewalls, and basic network security protocols.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-laptop-code fa-3x mb-3 text-info"></i>
+          <h5 class="fw-bold">Problem Solving</h5>
+          <p class="text-muted">Ability to analyze issues logically and find efficient technical solutions.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="fas fa-user-clock fa-3x mb-3 text-secondary"></i>
+          <h5 class="fw-bold">Responsible & Dedicated</h5>
+          <p class="text-muted">Always committed to learning and doing tasks with integrity and passion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold mb-4 text-center">Contact Me</h2>
+      <p class="text-center text-muted mb-4">If you have questions, just send me a message here. Thank you!</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
